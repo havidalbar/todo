@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  /* Container Customization */
+  .container-custom {
+    max-width: 600px;
+    margin-top: 50px;
+  }
+  
+  /* Todo Card Styles */
+  .todo-card {
+    border: 1px solid #007bff;
+    border-radius: 0.5rem;
+    transition: transform 0.2s;
+  }
+  
+  .todo-card:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Title Styles */
+  .todo-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  /* Modal Styles */
+  .modal-content {
+    border-radius: 1rem;
+  }
+  
+  .modal-header {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .modal-footer {
+    background-color: #f1f1f1;
+  }
+  
+  /* Button Styles */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+  }
